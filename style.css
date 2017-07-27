@@ -1,3 +1,6 @@
+html{
+	cursor: url(cursor.png), auto;
+}
 body{
 	font-family: monospace;
 }
@@ -36,5 +39,5 @@ body{
 	left:10em;
 }
 a:hover{
-	cursor: url(cursor.png), auto;
+	cursor: url(cursor2.png), auto;
 }
