@@ -1,14 +1,40 @@
-div{
+body{
+	font-family: monospace;
+}
+#thediv{
 	position: fixed;
 	top:0;
 	left:0;
 	height:100%;
 	width:100%;
 	background-color: beige;
-	cursor: url(cursor.png), auto;
 }
-#thecanvas{
-	/*background-color:beige;*/
-	width:100%;
-	height:100%;
+#thediv1{
+	position:fixed;
+	top: 5em;
+	left:5em;
+}
+#thediv2{
+	background-color: #ff4d4d;
+	position:fixed;
+	top:5em;
+	left:15em;
+}
+#paydaydiv1{
+	position:fixed;
+	top: 7.5em;
+	left:5em;
+}
+#unddanndiv1{
+	position:fixed;
+	top: 7.5em;
+	left:5em;
+}
+#portfoliodiv{
+	position:fixed;
+	top: 10em;
+	left:10em;
+}
+a:hover{
+	cursor: url(cursor.png), auto;
 }
