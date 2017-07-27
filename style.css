@@ -39,5 +39,6 @@ body{
 	left:10em;
 }
 a:hover{
-	cursor: url(cursor2.png), auto;
+	cursor: url(cursor.png), auto;
+	text-decoration:line-through;
 }
