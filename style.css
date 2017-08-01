@@ -12,6 +12,15 @@ body{
 	width:100%;
 	background-color: beige;
 }
+#thedivvideo{
+	position: fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: beige;
+	opacity: 0.3;
+}
 #thediv1{
 	position:fixed;
 	top: 5em;
@@ -41,4 +50,33 @@ body{
 a:hover{
 	cursor: url(cursor.png), auto;
 	text-decoration:line-through;
+}
+#message{
+	font-size: 1em;
+	position: relative;
+	margin-left: 4em;
+	margin-right: 4em;
+	margin-top: 8em;
+	margin-bottom: 6em;
+}
+.alert {
+	position:absolute;
+	height: 25em;
+	top: 4em;
+	left: 19em;
+    padding: 20px;
+    background-color: #e6b800;
+    color: white;
+}
+.closebtn {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 20px;
+    transition: 0.3s;
+    display: inline-block;
+    margin-left: 37%;
+}
+.closebtn:hover {
+    color: black;
 }
