@@ -19,7 +19,6 @@ body{
 	height:100%;
 	width:100%;
 	background-color: beige;
-	opacity: 0.3;
 }
 #thediv1{
 	position:fixed;
@@ -51,32 +50,25 @@ a:hover{
 	cursor: url(cursor.png), auto;
 	text-decoration:line-through;
 }
-#message{
-	font-size: 1em;
-	position: relative;
-	margin-left: 4em;
-	margin-right: 4em;
-	margin-top: 8em;
-	margin-bottom: 6em;
-}
 .alert {
-	position:absolute;
-	height: 25em;
-	top: 4em;
-	left: 19em;
+	position:fixed;
+	right:0;
+	bottom:0;
     padding: 20px;
     background-color: #e6b800;
     color: white;
 }
 .closebtn {
+	border: 1px solid white;
+	padding: 5px;
     color: white;
-    font-weight: bold;
-    font-size: 2em;
-    line-height: 20px;
-    transition: 0.3s;
+    /*font-weight: bold;*/
+    font-size: 1.5em;
     display: inline-block;
-    margin-left: 37%;
+    margin-right: 1.9%;
+    float: right;
 }
 .closebtn:hover {
-    color: black;
+    color: #1f004d;
+    border: 1px solid #1f004d;
 }
