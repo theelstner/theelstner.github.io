@@ -10,7 +10,7 @@ body{
 	left:0;
 	height:100%;
 	width:100%;
-	background-color: beige;
+	background-color: #fff5cc;
 }
 #thedivvideo{
 	position: fixed;
@@ -18,7 +18,7 @@ body{
 	left:0;
 	height:100%;
 	width:100%;
-	background-color: beige;
+	background-color: #fff5cc;
 }
 #thediv1{
 	position:fixed;
