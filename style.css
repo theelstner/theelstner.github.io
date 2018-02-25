@@ -4,7 +4,7 @@ html{
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
-	font-size: 2em;
+	font-size: 1em;
 }
 #thediv{
 	position: fixed;
@@ -47,7 +47,7 @@ body{
 }
 #paydaydiv1{
 	position:fixed;
-	top: 10%;
+	top: 2.5em;
 	left: 28%;
 }
 #portfoliodiv{
