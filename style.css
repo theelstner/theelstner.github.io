@@ -2,7 +2,9 @@ html{
 	cursor: url(cursor.png), auto;
 }
 body{
-	font-family: monospace;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
 }
 #thediv{
 	position: fixed;
@@ -10,7 +12,8 @@ body{
 	left:0;
 	height:100%;
 	width:100%;
-	background-color: #fff5cc;
+	background: #fff5cc;
+	background: radial-gradient(farthest-corner at 60% 55%, rgb(255,255,204), rgb(255, 204, 204));
 }
 #thedivvideo{
 	position: fixed;
@@ -18,67 +21,48 @@ body{
 	left:0;
 	height:100%;
 	width:100%;
-	background-color: #fff5cc;
+	background: #fff5cc;
+	background: radial-gradient(farthest-corner at 60% 55%, rgb(255,255,204), rgb(255, 204, 204));
+}
+#thediv2{
+	position:fixed;
+	left: 0.5em;
+	bottom: 0.5em;
+	right:0.5em;
+	padding: 5px;
+	border: 1px solid #BAA38C;
+}
+#thediv3{
+	position:fixed;
+	left: 0.5em;
+	bottom: 0.5em;
+	right:0.5em;
+	padding: 5px;
+	border: 1px solid #BAA38C;
 }
 #thediv1{
 	position:fixed;
-	top: 5em;
-	left:5em;
-}
-#thediv2{
-	background-color: #ff4d4d;
-	position:fixed;
-	top:5em;
-	left:15em;
-}
-#thediv3{
-	background-color: #ff4d4d;
-	position:fixed;
-	top:5em;
-	left:25em;
+	top: 20%;
+	left: 28%;
 }
 #paydaydiv1{
 	position:fixed;
-	top: 7.5em;
-	left:5em;
-}
-#unddanndiv1{
-	position:fixed;
-	top: 7.5em;
-	left:5em;
+	top: 10%;
+	left: 28%;
 }
 #portfoliodiv{
 	position:fixed;
-	top: 10em;
-	left:10em;
+	bottom: 0.5em;
+	right:0.5em;
+	padding: 5px;
+	border: 1px solid #BAA38C;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid grey;
 }
 a:hover{
 	cursor: url(cursor.png), auto;
-	text-decoration:line-through;
-}
-#message{
-	margin-left: 1em;
-}
-.alert {
-	position:fixed;
-	width:97%;
-	right:0;
-	bottom:0;
-    padding: 20px;
-    background-color: #e6b800;
-    color: white;
-}
-.closebtn {
-	border: 1px solid white;
-	padding: 5px;
-    color: white;
-    /*font-weight: bold;*/
-    font-size: 1.5em;
-    display: inline-block;
-    margin-right: 1.9%;
-    float: right;
-}
-.closebtn:hover {
-    color: #1f004d;
-    border: 1px solid #1f004d;
+	border-bottom: 5px solid #c6b29f;
 }
