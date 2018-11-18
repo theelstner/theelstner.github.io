@@ -50,6 +50,11 @@ body{
 	top: 2.5em;
 	left: 28%;
 }
+#atleastaneightdiv1{
+	position:fixed;
+	top: 2.5em;
+	left: 60%;
+}
 #portfoliodiv{
 	position:fixed;
 	bottom: 0.5em;
