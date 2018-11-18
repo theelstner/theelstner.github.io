@@ -35,6 +35,12 @@ body{
 	/*background: #fff5cc;*/
 	/*background: radial-gradient(farthest-corner at 60% 55%, rgb(255,255,204), rgb(255, 204, 204));*/
 }
+div.desc {
+    /*padding: 15px;*/
+    /*padding-right: 20px;*/
+    text-align: center;
+    width:660px;
+}
 #atleastaneightdiv1{
 	position:absolute; /*absolute to thetdivvideo*/
 	top: 2.5em;
