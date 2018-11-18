@@ -51,9 +51,9 @@ body{
 	left: 28%;
 }
 #atleastaneightdiv1{
-	position:fixed;
+	position:absolute; /*absolute to paydaydiv1*/
 	top: 2.5em;
-	left: 60%;
+	right: 20%;
 }
 #portfoliodiv{
 	position:fixed;
