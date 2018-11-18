@@ -5,6 +5,8 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
 	font-size: 1em;
+	background: #fff5cc;
+	background: radial-gradient(farthest-corner at 60% 55%, rgb(255,255,204), rgb(255, 204, 204));
 }
 #thediv{
 	position: fixed;
@@ -23,6 +25,20 @@ body{
 	width:100%;
 	background: #fff5cc;
 	background: radial-gradient(farthest-corner at 60% 55%, rgb(255,255,204), rgb(255, 204, 204));
+}
+#thehitjukeboxdivrelative{
+	position: relative;
+	top:0;
+	left:0;
+	height:500px;
+	width:100%;
+	/*background: #fff5cc;*/
+	/*background: radial-gradient(farthest-corner at 60% 55%, rgb(255,255,204), rgb(255, 204, 204));*/
+}
+#atleastaneightdiv1{
+	position:absolute; /*absolute to thetdivvideo*/
+	top: 2.5em;
+	right: 20%;
 }
 #thediv2{
 	position:fixed;
@@ -50,17 +66,17 @@ body{
 	top: 2.5em;
 	left: 28%;
 }
-#atleastaneightdiv1{
-	position:absolute; /*absolute to paydaydiv1*/
-	top: 2.5em;
-	right: 20%;
-}
 #portfoliodiv{
 	position:fixed;
 	bottom: 0.5em;
 	right:0.5em;
 	padding: 5px;
 	border: 1px solid #BAA38C;
+}
+div.thehitjukeboxgallery{
+	position:relative;
+	margin: 30px;
+	left: 20%;
 }
 a{
 	color: #000000;
